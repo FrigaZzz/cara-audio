@@ -1,0 +1,36 @@
+# CARA Audio Backend
+
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Models cache
+.cache/
+
+# Audio output
+output/
+*.wav
+!assets/voices/?default_speaker.wav
+*.mp3
+
+# Logs
+*.log
